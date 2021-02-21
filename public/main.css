@@ -1,0 +1,92 @@
+html {
+  font-size: 15px;
+}
+body {
+  background-color: hsl(197, 15%, 91%);
+}
+.container {
+  width: 70%;
+  min-height: 800px;
+  margin: auto;
+}
+.login {
+  width: 100%;
+  color: red;
+}
+#username {
+  background-color: transparent;
+  border: solid 1px;
+}
+.chatbox {
+  display: flex;
+  margin-top: 10px;
+}
+.left {
+  width: 20%;
+  background-color: rgb(145, 180, 201);
+  min-height: 500px;
+  margin-right: 10px;
+  border: solid 1px;
+}
+.center {
+  width: 60%;
+  min-height: 500px;
+  border: solid 1px;
+  margin-right: 10px;
+  background-color: rgb(145, 180, 201);
+  display: flex;
+  justify-content: center;
+}
+
+.right {
+  width: 20%;
+  min-height: 500px;
+  border: solid 1px;
+  background-color: rgb(145, 180, 201);
+  text-align: center;
+}
+.right video {
+  width: 90%;
+  height: 150px;
+  margin: 10px auto;
+}
+.boxtitle {
+  width: 100%;
+  height: 3rem;
+  text-align: center;
+  line-height: 3rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.listuser {
+  list-style: none;
+  height: 80%;
+  margin: 10px 10px;
+  padding-left: 0px;
+  background-color: #e4e9eb;
+  border: solid 1px;
+  padding-top: 0.5rem;
+  overflow: auto;
+}
+.listuser li {
+  padding-left: 15px;
+  height: 2rem;
+  line-height: 2rem;
+  font-size: 1.3rem;
+}
+.xam {
+  background-color: #525557;
+}
+.canphai {
+  text-align: right;
+  margin-right: 0px;
+}
+
+.friendstream {
+  width: 90%;
+  height: 90%;
+  margin: auto auto;
+}
+.isstreaming {
+  border: 1px solid;
+}

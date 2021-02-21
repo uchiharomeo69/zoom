@@ -1,0 +1,31 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title chat video       
+        link(rel="stylesheet", href="main.css")
+    body
+        div(id="roomid" hidden)=roomid 
+        h2(id="peerid") 
+        .container
+            div(class="login" id="login")
+                
+                h3 What is your name?
+                input(type="text" style="margin-right:1rem" id="username")
+                button(id="register") Register
+                p(id="error")
+            .chatbox
+                .left 
+                    .boxtitle User Online
+                    ul(class="listuser" id="listuser")                                
+                .center#center
+                    video(id="friendstream" class="video friendstream" controls)                   
+                .right#right
+                    div(id="liststream") 
+                        video(id="localstream" class="video" controls) 
+            br          
+            button(id="call") sharecam 
+                          
+    script(src="main.js").

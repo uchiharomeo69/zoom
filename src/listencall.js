@@ -6,7 +6,6 @@ function listencall(peer) {
     try {
       call.answer();
       let peeridrec = call.peer;
-
       call.on("stream", (remotestream) => {
         playVideo(remotestream, "friendstream");
         addcaller(remotestream, peeridrec);
